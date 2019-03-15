@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33105643278829662}
   - component: {fileID: 23682578660232174}
   - component: {fileID: 54427930695603816}
+  - component: {fileID: 114643943716064190}
   - component: {fileID: 135747619499494896}
-  - component: {fileID: 114080612841694644}
   m_Layer: 0
   m_Name: Apple_G
   m_TagString: Untagged
@@ -102,7 +102,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114080612841694644
+--- !u!114 &114643943716064190
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -110,18 +110,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1062517053221782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51b5c9652c3b31c4ba1d3bc22bd8d61b, type: 3}
+  m_Script: {fileID: 11500000, guid: 0dfd432aeffdf5d4c8979a58fbbd8605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slicePrefab: {fileID: 1691772121347520, guid: 2b46adea58fb0c244b74260a7f4959f4,
     type: 2}
   startForce: 17
-  Stars:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!135 &135747619499494896
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -129,7 +123,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1062517053221782}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.93938977

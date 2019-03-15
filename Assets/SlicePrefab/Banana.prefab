@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23875997029922778}
   - component: {fileID: 65207750800058402}
   - component: {fileID: 54827745787443438}
-  - component: {fileID: 114055929691772040}
+  - component: {fileID: 114000838965735150}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -108,12 +108,12 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1298876671087894}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.037982, y: 3.5408921, z: 1.6777778}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114055929691772040
+--- !u!114 &114000838965735150
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1298876671087894}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51b5c9652c3b31c4ba1d3bc22bd8d61b, type: 3}
+  m_Script: {fileID: 11500000, guid: 0dfd432aeffdf5d4c8979a58fbbd8605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slicePrefab: {fileID: 1974955910310766, guid: 197621b17882d1046a0fff63bc06d92d,
