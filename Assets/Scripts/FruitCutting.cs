@@ -20,8 +20,8 @@ public class FruitCutting : MonoBehaviour {
 
         rb.AddForce(transform.up * startForce , ForceMode.Impulse);
 	}
-    
 
+   
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Hand"))
@@ -29,11 +29,9 @@ public class FruitCutting : MonoBehaviour {
             if (fruit.index <= 4 && !fruit.isLose)
             {
                 fruit.Count++;
-                Vector3 direction = (other.transform.position - transform.position).normalized;
+               
 
-                Quaternion rotation = Quaternion.LookRotation(direction);
-
-                GameObject slice = Instantiate(slicePrefab, gameObject.transform.position, rotation);
+                GameObject slice = Instantiate(slicePrefab, gameObject.transform.position, gameObject.transform.rotation);
 
                 Destroy(gameObject);
 
