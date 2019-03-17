@@ -115,7 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slicePrefab: {fileID: 1649266247071498, guid: 33077664a54de6b4085505f83f2871f2,
     type: 2}
-  startForce: 17
+  startForce: 16
 --- !u!135 &135617910827849726
 SphereCollider:
   m_ObjectHideFlags: 1

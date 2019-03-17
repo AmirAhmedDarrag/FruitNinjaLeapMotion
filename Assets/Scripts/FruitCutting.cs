@@ -21,7 +21,20 @@ public class FruitCutting : MonoBehaviour {
         rb.AddForce(transform.up * startForce , ForceMode.Impulse);
 	}
 
-   
+    private void OnMouseDown()
+    {
+        if (fruit.index <= 4 && !fruit.isLose)
+        {
+            fruit.Count++;
+
+
+            GameObject slice = Instantiate(slicePrefab, gameObject.transform.position, gameObject.transform.rotation);
+
+            Destroy(gameObject);
+
+            Destroy(slice, 3.0f);
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Hand"))

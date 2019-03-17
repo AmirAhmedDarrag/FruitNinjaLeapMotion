@@ -16,7 +16,6 @@ public class fruit : MonoBehaviour {
 
     public int numberOfCut = 5;
 
-    public float startForce = 12.0f;
 
     public float minDelay = 0.1f;
     public float maxDelay = 1.0f;
@@ -24,7 +23,7 @@ public class fruit : MonoBehaviour {
     public static bool isLose;
     public static int index;
     public GameObject[] _Stars;
-    private int prevSpawn;
+   
 
     public static int Count;
 	void Start () {
@@ -43,7 +42,7 @@ public class fruit : MonoBehaviour {
 
 
         index = 0;
-        prevSpawn = -1;
+        
         StartCoroutine(SpawnFruits());
 	}
 
@@ -80,10 +79,9 @@ public class fruit : MonoBehaviour {
     }
     IEnumerator SpawnFruits()
     {
-
         float delay = Random.Range(minDelay, maxDelay);
 
-        prevSpawn = -1;
+        
         yield return new WaitForSeconds(delay);
 
         for (int i = 0; i < fruitPrefab.Length; i++)
@@ -92,17 +90,9 @@ public class fruit : MonoBehaviour {
 
             Transform spawnPoint = spawnPoints[spawnIndex];
 
-            while(spawnIndex == prevSpawn)
-            {
-                spawnIndex = Random.Range(0, spawnPoints.Length);
 
-                spawnPoint = spawnPoints[spawnIndex];
-            }
-            
             GameObject spawnFruit = Instantiate(fruitPrefab[i], spawnPoint.position, spawnPoint.rotation);
-
-            prevSpawn = spawnIndex;
-
+            
             Destroy(spawnFruit, 3.0f);
 
         }

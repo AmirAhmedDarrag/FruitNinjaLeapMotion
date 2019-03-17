@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 54
+  controlID: 106
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,7 +121,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 18}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 107
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 94
+  controlID: 108
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -254,13 +254,13 @@ MonoBehaviour:
     height: 364
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 12}
   - {fileID: 17}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,20 +323,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/SlicePrefab
+    - Assets/Textures
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SlicePrefab
+  - Assets/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\AMIR\Documents\GitHub\FruitNinjaLeapMotion
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7c360000
-    m_LastClickedID: 13948
-    m_ExpandedIDs: 00000000f22c0000722d0000822e0000da2e0000f42e00001e2f0000542f0000bc2f0000f8320000d2340000023b0000043b0000063b000000ca9a3bffffff7f
+    m_SelectedIDs: 082f0000
+    m_LastClickedID: 12040
+    m_ExpandedIDs: 00000000f22c0000722d00008a2e0000042f00002e2f0000642f0000d42f0000f03400008c360000203b0000223b0000243b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f22c0000722d0000822e0000da2e0000f42e00001e2f0000542f0000bc2f0000f8320000d2340000023b0000043b0000063b0000
+    m_ExpandedIDs: 00000000f22c0000722d00008a2e0000ea2e0000042f00002e2f0000642f0000d42f000016330000f0340000203b0000223b0000243b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -480,9 +480,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 60fefdff
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 56effcff08f0fcfff6f4fcfffaf4fcffea04fdffc634fdff7a35fdfff237fdff723afdff3ac7fdff5e17feff42b1feffe0fbffff000000003a470000626e0000ae740000
+    m_ExpandedIDs: 081ff8ff86baf8ff7812fbff326ffcffd2fbfffff0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -532,14 +532,14 @@ MonoBehaviour:
     height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 217.7879709313871
+  lastFramingTime: 2479.2565552756587
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -16.173187, y: 18.318516, z: 38.112804}
+    m_Target: {x: 3.9299881, y: -5.6971073, z: 24.645208}
     speed: 2
-    m_Value: {x: -16.173187, y: 18.318516, z: 38.112804}
+    m_Value: {x: 3.9299881, y: -5.6971073, z: 24.645208}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -567,9 +567,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.21020162, y: 0.7844483, z: -0.35768718, w: 0.46099472}
+    m_Target: {x: 0.16534252, y: 0.8074022, z: -0.4992669, w: 0.26738754}
     speed: 2
-    m_Value: {x: 0.21020159, y: 0.7844482, z: -0.35768715, w: 0.46099466}
+    m_Value: {x: 0.16534252, y: 0.8074022, z: -0.4992669, w: 0.26738754}
   m_Size:
     m_Target: 22
     speed: 2
@@ -630,7 +630,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1

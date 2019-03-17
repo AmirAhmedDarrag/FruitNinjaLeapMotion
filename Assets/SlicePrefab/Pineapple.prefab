@@ -127,4 +127,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slicePrefab: {fileID: 1062700768568120, guid: 25191c6993a3b9e4ba4c5a865cd05ede,
     type: 2}
-  startForce: 17
+  startForce: 16

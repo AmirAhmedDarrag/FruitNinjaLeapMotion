@@ -148,11 +148,10 @@ MonoBehaviour:
   Message:
   - {fileID: 0}
   - {fileID: 0}
-  Down: 20
+  Down: 30
   numberOfCut: 5
-  startForce: 20
-  minDelay: 1
-  maxDelay: 1.5
+  minDelay: 2
+  maxDelay: 3
   _Stars:
   - {fileID: 0}
   - {fileID: 0}
